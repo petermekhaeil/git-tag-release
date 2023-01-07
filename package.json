@@ -1,0 +1,7 @@
+{
+  "name": "git-tag-release",
+  "version": "1.0.0",
+  "description": "How to automatically create a GitHub release on tag push.",
+  "main": "index.js",
+  "author": "Peter Mekhaeil"
+}
