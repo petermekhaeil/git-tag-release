@@ -31,3 +31,15 @@ await octokit.request('POST /repos/{owner}/{repo}/releases', {
   body: 'Full Changelog: https://github.com/OWNER/REPO/commits/v0.0.0'
 });
 ```
+
+## Using GitHub CLI
+
+```bash
+gh api \
+  --method POST \
+  -H "Accept: application/vnd.github+json" \
+  /repos/OWNER/REPO/releases \
+  -f tag_name='v0.0.0' \
+  -f name='v0.0.0' \
+  -f body='Full Changelog: https://github.com/OWNER/REPO/commits/v0.0.0'
+```
