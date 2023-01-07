@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "How to automatically create a GitHub release on tag push.",
   "main": "index.js",
-  "author": "Peter Mekhaeil"
+  "author": "Peter Mekhaeil",
+  "dependencies": {
+    "@octokit/rest": "^19.0.5"
+  }
 }
